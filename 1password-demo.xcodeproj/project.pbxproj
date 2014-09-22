@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCEDA22519D044A10013F541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA22419D044A10013F541 /* main.m */; };
+		BCEDA22819D044A10013F541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA22719D044A10013F541 /* AppDelegate.m */; };
+		BCEDA22B19D044A10013F541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA22A19D044A10013F541 /* ViewController.m */; };
+		BCEDA22E19D044A10013F541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22C19D044A10013F541 /* Main.storyboard */; };
+		BCEDA23019D044A10013F541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22F19D044A10013F541 /* Images.xcassets */; };
+		BCEDA23319D044A10013F541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA23119D044A10013F541 /* LaunchScreen.xib */; };
+		BCEDA23F19D044A10013F541 /* _password_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA23E19D044A10013F541 /* _password_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEDA23919D044A10013F541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEDA21719D044A10013F541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEDA21E19D044A10013F541;
+			remoteInfo = "1password-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCEDA21F19D044A10013F541 /* 1password-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1password-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEDA22319D044A10013F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEDA22419D044A10013F541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCEDA22619D044A10013F541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCEDA22719D044A10013F541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCEDA22919D044A10013F541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCEDA22A19D044A10013F541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCEDA22D19D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEDA22F19D044A10013F541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCEDA23219D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1password-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEDA23D19D044A10013F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEDA23E19D044A10013F541 /* _password_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _password_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEDA21C19D044A10013F541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEDA23519D044A10013F541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEDA21619D044A10013F541 = {
+			isa = PBXGroup;
+			children = (
+				BCEDA22119D044A10013F541 /* 1password-demo */,
+				BCEDA23B19D044A10013F541 /* 1password-demoTests */,
+				BCEDA22019D044A10013F541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEDA22019D044A10013F541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDA21F19D044A10013F541 /* 1password-demo.app */,
+				BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEDA22119D044A10013F541 /* 1password-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDA22619D044A10013F541 /* AppDelegate.h */,
+				BCEDA22719D044A10013F541 /* AppDelegate.m */,
+				BCEDA22919D044A10013F541 /* ViewController.h */,
+				BCEDA22A19D044A10013F541 /* ViewController.m */,
+				BCEDA22C19D044A10013F541 /* Main.storyboard */,
+				BCEDA22F19D044A10013F541 /* Images.xcassets */,
+				BCEDA23119D044A10013F541 /* LaunchScreen.xib */,
+				BCEDA22219D044A10013F541 /* Supporting Files */,
+			);
+			path = "1password-demo";
+			sourceTree = "<group>";
+		};
+		BCEDA22219D044A10013F541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDA22319D044A10013F541 /* Info.plist */,
+				BCEDA22419D044A10013F541 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCEDA23B19D044A10013F541 /* 1password-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDA23E19D044A10013F541 /* _password_demoTests.m */,
+				BCEDA23C19D044A10013F541 /* Supporting Files */,
+			);
+			path = "1password-demoTests";
+			sourceTree = "<group>";
+		};
+		BCEDA23C19D044A10013F541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDA23D19D044A10013F541 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEDA21E19D044A10013F541 /* 1password-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEDA24219D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demo" */;
+			buildPhases = (
+				BCEDA21B19D044A10013F541 /* Sources */,
+				BCEDA21C19D044A10013F541 /* Frameworks */,
+				BCEDA21D19D044A10013F541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1password-demo";
+			productName = "1password-demo";
+			productReference = BCEDA21F19D044A10013F541 /* 1password-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEDA23719D044A10013F541 /* 1password-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEDA24519D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demoTests" */;
+			buildPhases = (
+				BCEDA23419D044A10013F541 /* Sources */,
+				BCEDA23519D044A10013F541 /* Frameworks */,
+				BCEDA23619D044A10013F541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEDA23A19D044A10013F541 /* PBXTargetDependency */,
+			);
+			name = "1password-demoTests";
+			productName = "1password-demoTests";
+			productReference = BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEDA21719D044A10013F541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dmitry Beloborodov";
+				TargetAttributes = {
+					BCEDA21E19D044A10013F541 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BCEDA23719D044A10013F541 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BCEDA21E19D044A10013F541;
+					};
+				};
+			};
+			buildConfigurationList = BCEDA21A19D044A10013F541 /* Build configuration list for PBXProject "1password-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEDA21619D044A10013F541;
+			productRefGroup = BCEDA22019D044A10013F541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEDA21E19D044A10013F541 /* 1password-demo */,
+				BCEDA23719D044A10013F541 /* 1password-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEDA21D19D044A10013F541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEDA22E19D044A10013F541 /* Main.storyboard in Resources */,
+				BCEDA23319D044A10013F541 /* LaunchScreen.xib in Resources */,
+				BCEDA23019D044A10013F541 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEDA23619D044A10013F541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEDA21B19D044A10013F541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEDA22B19D044A10013F541 /* ViewController.m in Sources */,
+				BCEDA22819D044A10013F541 /* AppDelegate.m in Sources */,
+				BCEDA22519D044A10013F541 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEDA23419D044A10013F541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEDA23F19D044A10013F541 /* _password_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEDA23A19D044A10013F541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEDA21E19D044A10013F541 /* 1password-demo */;
+			targetProxy = BCEDA23919D044A10013F541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCEDA22C19D044A10013F541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEDA22D19D044A10013F541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEDA23119D044A10013F541 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEDA23219D044A10013F541 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEDA24019D044A10013F541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEDA24119D044A10013F541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEDA24319D044A10013F541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1password-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCEDA24419D044A10013F541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1password-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCEDA24619D044A10013F541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "1password-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1password-demo.app/1password-demo";
+			};
+			name = Debug;
+		};
+		BCEDA24719D044A10013F541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "1password-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1password-demo.app/1password-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEDA21A19D044A10013F541 /* Build configuration list for PBXProject "1password-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEDA24019D044A10013F541 /* Debug */,
+				BCEDA24119D044A10013F541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEDA24219D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEDA24319D044A10013F541 /* Debug */,
+				BCEDA24419D044A10013F541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCEDA24519D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEDA24619D044A10013F541 /* Debug */,
+				BCEDA24719D044A10013F541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEDA21719D044A10013F541 /* Project object */;
+}
