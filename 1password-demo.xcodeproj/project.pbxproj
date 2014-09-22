@@ -13,6 +13,7 @@
 		BCEDA22E19D044A10013F541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22C19D044A10013F541 /* Main.storyboard */; };
 		BCEDA23019D044A10013F541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22F19D044A10013F541 /* Images.xcassets */; };
 		BCEDA23319D044A10013F541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA23119D044A10013F541 /* LaunchScreen.xib */; };
+		BCEDA24A19D050A00013F541 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA24919D050A00013F541 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BCEDA22D19D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCEDA22F19D044A10013F541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCEDA23219D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCEDA24919D050A00013F541 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		BCEDA21619D044A10013F541 = {
 			isa = PBXGroup;
 			children = (
+				BCEDA24919D050A00013F541 /* README.md */,
 				BCEDA22119D044A10013F541 /* 1password-demo */,
 				BCEDA22019D044A10013F541 /* Products */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				BCEDA22B19D044A10013F541 /* ViewController.m in Sources */,
 				BCEDA22819D044A10013F541 /* AppDelegate.m in Sources */,
+				BCEDA24A19D050A00013F541 /* README.md in Sources */,
 				BCEDA22519D044A10013F541 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
