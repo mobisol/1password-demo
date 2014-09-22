@@ -13,21 +13,10 @@
 		BCEDA22E19D044A10013F541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22C19D044A10013F541 /* Main.storyboard */; };
 		BCEDA23019D044A10013F541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA22F19D044A10013F541 /* Images.xcassets */; };
 		BCEDA23319D044A10013F541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEDA23119D044A10013F541 /* LaunchScreen.xib */; };
-		BCEDA23F19D044A10013F541 /* _password_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDA23E19D044A10013F541 /* _password_demoTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BCEDA23919D044A10013F541 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BCEDA21719D044A10013F541 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCEDA21E19D044A10013F541;
-			remoteInfo = "1password-demo";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BCEDA21F19D044A10013F541 /* 1password-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1password-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEDA21F19D044A10013F541 /* 1p demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1p demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEDA22319D044A10013F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEDA22419D044A10013F541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCEDA22619D044A10013F541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,20 +26,10 @@
 		BCEDA22D19D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCEDA22F19D044A10013F541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCEDA23219D044A10013F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1password-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEDA23D19D044A10013F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCEDA23E19D044A10013F541 /* _password_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _password_demoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BCEDA21C19D044A10013F541 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCEDA23519D044A10013F541 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				BCEDA22119D044A10013F541 /* 1password-demo */,
-				BCEDA23B19D044A10013F541 /* 1password-demoTests */,
 				BCEDA22019D044A10013F541 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,8 +50,7 @@
 		BCEDA22019D044A10013F541 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCEDA21F19D044A10013F541 /* 1password-demo.app */,
-				BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */,
+				BCEDA21F19D044A10013F541 /* 1p demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BCEDA23B19D044A10013F541 /* 1password-demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				BCEDA23E19D044A10013F541 /* _password_demoTests.m */,
-				BCEDA23C19D044A10013F541 /* Supporting Files */,
-			);
-			path = "1password-demoTests";
-			sourceTree = "<group>";
-		};
-		BCEDA23C19D044A10013F541 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCEDA23D19D044A10013F541 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,26 +96,8 @@
 			);
 			name = "1password-demo";
 			productName = "1password-demo";
-			productReference = BCEDA21F19D044A10013F541 /* 1password-demo.app */;
+			productReference = BCEDA21F19D044A10013F541 /* 1p demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BCEDA23719D044A10013F541 /* 1password-demoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCEDA24519D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demoTests" */;
-			buildPhases = (
-				BCEDA23419D044A10013F541 /* Sources */,
-				BCEDA23519D044A10013F541 /* Frameworks */,
-				BCEDA23619D044A10013F541 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BCEDA23A19D044A10013F541 /* PBXTargetDependency */,
-			);
-			name = "1password-demoTests";
-			productName = "1password-demoTests";
-			productReference = BCEDA23819D044A10013F541 /* 1password-demoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +110,6 @@
 				TargetAttributes = {
 					BCEDA21E19D044A10013F541 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					BCEDA23719D044A10013F541 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = BCEDA21E19D044A10013F541;
 					};
 				};
 			};
@@ -189,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				BCEDA21E19D044A10013F541 /* 1password-demo */,
-				BCEDA23719D044A10013F541 /* 1password-demoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +139,6 @@
 				BCEDA22E19D044A10013F541 /* Main.storyboard in Resources */,
 				BCEDA23319D044A10013F541 /* LaunchScreen.xib in Resources */,
 				BCEDA23019D044A10013F541 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCEDA23619D044A10013F541 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCEDA23419D044A10013F541 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCEDA23F19D044A10013F541 /* _password_demoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BCEDA23A19D044A10013F541 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BCEDA21E19D044A10013F541 /* 1password-demo */;
-			targetProxy = BCEDA23919D044A10013F541 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BCEDA22C19D044A10013F541 /* Main.storyboard */ = {
@@ -347,7 +261,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "1password-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "1p demo";
 			};
 			name = Debug;
 		};
@@ -357,41 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "1password-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		BCEDA24619D044A10013F541 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "1password-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1password-demo.app/1password-demo";
-			};
-			name = Debug;
-		};
-		BCEDA24719D044A10013F541 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "1password-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1password-demo.app/1password-demo";
+				PRODUCT_NAME = "1p demo";
 			};
 			name = Release;
 		};
@@ -412,14 +292,6 @@
 			buildConfigurations = (
 				BCEDA24319D044A10013F541 /* Debug */,
 				BCEDA24419D044A10013F541 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		BCEDA24519D044A10013F541 /* Build configuration list for PBXNativeTarget "1password-demoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BCEDA24619D044A10013F541 /* Debug */,
-				BCEDA24719D044A10013F541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
